@@ -3,9 +3,9 @@
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
 
-const char* ssid = "AR_HOME";
-const char* password = "abdulrehmaN1122";
-const char* serverName = "http://192.168.110.82/data";
+const char* ssid = "xxxx";
+const char* password = "xxxx";
+const char* serverName = "http://192.xxxxx/data";
 
 // Define LED pins
 const int ledPin13 = 13; // Red LED

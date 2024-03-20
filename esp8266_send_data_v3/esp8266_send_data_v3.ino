@@ -3,8 +3,8 @@
 #include <NewPing.h>
 
 // Network credentials
-const char* ssid = "AR_HOME";
-const char* password = "abdulrehmaN1122";
+const char* ssid = "xxxx";
+const char* password = "xxxxx";
 
 const int trigPin = D1;
 const int echoPin = D2;

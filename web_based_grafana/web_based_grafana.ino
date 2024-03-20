@@ -3,8 +3,8 @@
 #include <HTTPClient.h>
 
 // WiFi credentials
-const char* ssid = "PTCL-AR";
-const char* password = "abdulrehmaN007";
+const char* ssid = "xxxxx";
+const char* password = "xxxxxxx";
 
 WebServer server(80);
 
@@ -167,7 +167,7 @@ void loop() {
 
     // Send data to Flask server
     HTTPClient http;
-    http.begin("http://192.168.10.10:5000/update"); // Replace with your Flask server's IP and port
+    http.begin("http://192.xxxxxx:5000/update"); // Replace with your Flask server's IP and port
     http.addHeader("Content-Type", "application/x-www-form-urlencoded");
     int httpResponseCode = http.POST("level=" + String(levelPercent));
   
